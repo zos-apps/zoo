@@ -1,0 +1,17 @@
+
+> @zos-apps/zoo@1.0.0 build /Users/z/work/zeekay/zos-apps/zoo
+> tsup
+
+CLI Building entry: src/index.tsx
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.5.1
+CLI Using tsup config: /Users/z/work/zeekay/zos-apps/zoo/tsup.config.ts
+CLI Target: es2022
+CLI Cleaning output folder
+ESM Build start
+ESM dist/index.js     6.04 KB
+ESM dist/index.js.map 15.33 KB
+ESM ⚡️ Build success in 59ms
+DTS Build start
+DTS ⚡️ Build success in 636ms
+DTS dist/index.d.ts 115.00 B

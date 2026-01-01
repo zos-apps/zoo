@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Sparkles, TrendingUp, Clock, Star, Grid, List, ExternalLink, Heart } from 'lucide-react';
 
 interface ZooProps {
@@ -29,7 +29,7 @@ const categories = [
   { id: 'favorites', label: 'Favorites', icon: Star },
 ];
 
-const Zoo: React.FC<ZooProps> = ({ onClose }) => {
+const Zoo: React.FC<ZooProps> = ({ onClose: _onClose }) => {
   const [activeCategory, setActiveCategory] = useState('all');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [selectedNFT, setSelectedNFT] = useState<NFT | null>(null);
