@@ -1,0 +1,81 @@
+{
+  "name": "@zos-apps/zoo",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.zoo",
+    "name": "Zoo",
+    "icon": "🦁",
+    "category": "finance",
+    "description": "Zoo Labs Foundation DeFi platform",
+    "permissions": [],
+    "window": {
+      "defaultSize": {
+        "width": 800,
+        "height": 600
+      },
+      "resizable": true
+    },
+    "about": "Zoo Labs Foundation DeFi platform",
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/zoo"
+    },
+    "featured": false,
+    "tags": [
+      "finance",
+      "zoo"
+    ],
+    "releaseDate": "2025-12-28",
+    "support": "https://github.com/zos-apps/zoo/issues",
+    "changelog": "https://github.com/zos-apps/zoo/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "description": "Zoo Labs Foundation DeFi platform",
+  "homepage": "https://zos-apps.github.io/zoo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/zoo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/zoo/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "zoo",
+    "macos",
+    "desktop"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0"
+  }
+}
